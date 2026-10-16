@@ -1,4 +1,7 @@
 #include <iostream>
+#include "raylib.h"
+#include "raygui.h"
+
 
 using namespace std;
 int main() {
