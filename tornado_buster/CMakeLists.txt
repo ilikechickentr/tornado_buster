@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 4.3)
 
 project(tornado_buster)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 
 include(FetchContent)
 
@@ -14,7 +14,10 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(raylib)
 
+
 add_executable(tornado_buster main.cpp)
 
-target_include_directories(tornado_buster PRIVATE ext/raygui)
+target_include_directories(tornado_buster PRIVATE
+        ext)
 
+target_link_libraries(tornado_buster PRIVATE raylib)
