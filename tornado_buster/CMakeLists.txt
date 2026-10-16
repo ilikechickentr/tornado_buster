@@ -15,7 +15,8 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(raylib)
 
 
-add_executable(tornado_buster main.cpp)
+add_executable(tornado_buster main.cpp sensors.cpp
+        sensors.h)
 
 target_include_directories(tornado_buster PRIVATE
         ext)
