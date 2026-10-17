@@ -284,6 +284,7 @@ int main() {
     SetWindowMinSize(480, 320);
     SetTargetFPS(60);
 
+
     bool dark = true;
     Theme theme = MakeTheme(dark);
     Sidebar sb;
