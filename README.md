@@ -61,7 +61,7 @@ tornado_buster/
 Requirements: a C++23 compiler and CMake. Raylib is downloaded automatically on the first configure, so an internet connection is needed for that step.
 
 ```bash
-git clone https://github.com/ilikechickentr/tornado_buster
+git clone https://github.com/ilikechickentr/tornado_buster/
 cd tornado_buster
 cmake -S . -B build
 cmake --build build
@@ -76,6 +76,10 @@ On Windows the executable is `build\tornado_buster.exe` (or inside a `Debug` / `
 - **Drag the sidebar's right edge** to resize it.
 - **Light/Dark Mode button** (bottom of the sidebar) switches the theme.
 - **Mouse wheel** scrolls the Sensors tab.
+
+## License
+
+Licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Status
 
