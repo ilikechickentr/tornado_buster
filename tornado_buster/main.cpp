@@ -280,7 +280,7 @@ static Page DrawSidebar(Sidebar& sb, Page current, const Theme& t, int H, bool& 
 // ===========================================================================
 int main() {
     SetConfigFlags(FLAG_WINDOW_RESIZABLE | FLAG_MSAA_4X_HINT);
-    InitWindow(1280, 720, "Tornado Buster");
+    InitWindow(1280, 720, "tornado_buster.exe");
     SetWindowMinSize(480, 320);
     SetTargetFPS(60);
 
